@@ -57,8 +57,8 @@ export const gamesData: Game[] = [
     summary: 'O clássico jogo de cartas colecionáveis para batalhas épicas entre magos.',
     price: 25.00,
     images: [
-      'https://images.unsplash.com/photo-1632501641765-e568d28b0015?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxib2FyZCUyMGdhbWUlMjBjYXJkc3xlbnwxfHx8fDE3NjMwODAwODV8MA&ixlib=rb-4.1.0&q=80&w=1080',
-      'https://images.unsplash.com/photo-1728167049092-de4e98571c1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXJkJTIwZ2FtZSUyMGRlY2t8ZW58MXx8fHwxNzYzMDgwMDg2fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://s2-techtudo.glbimg.com/Hvc8m1ib_7YLFj5833oj_Dv76_4=/0x0:875x578/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2019/c/L/tK0403SrGJrDfBpdu6uw/captura-de-tela-2019-01-03-as-14.17.34.png',
+      'https://m.magazineluiza.com.br/a-static/420x420/lote-de-200-cartas-de-magic-the-gathering-aleatorias-wotc/orioncolecionaveis/16031869232/a106990d318e7d593c2ebae7a0aa9b3c.jpeg',
     ],
     description: 'Magic: The Gathering é um jogo de cartas estratégico onde você assume o papel de um poderoso mago (Planeswalker) e duela contra outros jogadores usando feitiços, criaturas e artefatos.',
     howToPlay: 'Cada jogador começa com 20 pontos de vida. Use seu deck de cartas para invocar criaturas, lançar feitiços e reduzir a vida do oponente a zero. Gerencie seus recursos de mana e construa estratégias complexas.',
@@ -75,12 +75,13 @@ export const gamesData: Game[] = [
   },
   {
     id: '2',
-    name: 'Uno Deluxe',
+    name: 'Uno',
     category: 'Jogo de Cartas Familiar',
     summary: 'O clássico jogo de cartas que todos conhecem e amam.',
     price: 15.00,
     images: [
-      'https://images.unsplash.com/photo-1601162937667-08f083516d57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwbGF5aW5nJTIwY2FyZHMlMjBnYW1lfGVufDF8fHx8MTc2MzA4MDA4NXww&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000034088/ac97854c142c719f8ae843106d43511db61822eb9bdb78e2c1a98ea0ae3b6c08',
+      'https://static.fatimacrianca.com.br/public/fatimacrianca/imagens/produtos/jogo-de-cartas-uno-original-mattel-664c9bcee0a45.png'
     ],
     description: 'UNO é um jogo de cartas divertido e dinâmico onde o objetivo é ser o primeiro a descartar todas as suas cartas.',
     howToPlay: 'Combine cores ou números com a carta no topo da pilha de descarte. Use cartas especiais para mudar o rumo do jogo e não se esqueça de gritar "UNO!" quando tiver apenas uma carta na mão.',
@@ -97,12 +98,13 @@ export const gamesData: Game[] = [
   },
   {
     id: '3',
-    name: 'Xadrez Premium',
+    name: 'Xadrez',
     category: 'Jogo de Tabuleiro Estratégico',
     summary: 'O jogo de estratégia milenar com peças e tabuleiro premium.',
     price: 20.00,
     images: [
-      'https://images.unsplash.com/photo-1654741755763-b4cee51feb9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGVzcyUyMGJvYXJkJTIwZ2FtZXxlbnwxfHx8fDE3NjMwNTYwMTV8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://carrefourbr.vtexassets.com/arquivos/ids/202583556/image-1.jpg?v=638936990285600000',
+      'https://cdncentric.adsomos.com.br/image/cache/data/Produtos/JO/Jogo-Xadrez-Vidro-c-Tabuleiro-20x20cm-e-32-Pecas-COR-NAO-DEFINIDA-928EBD58-3-1400x1400.jpg.webp'
     ],
     description: 'Xadrez é um jogo de tabuleiro estratégico de dois jogadores onde o objetivo é dar xeque-mate no rei adversário.',
     howToPlay: 'Cada jogador controla 16 peças (rei, rainha, torres, bispos, cavalos e peões). Movimente suas peças estrategicamente para capturar as peças do oponente e colocar o rei adversário em xeque-mate.',
@@ -126,7 +128,8 @@ export const gamesData: Game[] = [
     summary: 'Compre, venda e negocie propriedades neste clássico jogo de negócios.',
     price: 30.00,
     images: [
-      'https://images.unsplash.com/photo-1640461470346-c8b56497850a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb25vcG9seSUyMGJvYXJkJTIwZ2FtZXxlbnwxfHx8fDE3NjMwODAwODV8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://cdn.awsli.com.br/600x700/2640/2640978/produto/229767435/7896027560367_1-iwm5riomjb.jpg',
+      'https://s.zst.com.br/cms-assets/2024/10/imagem-1-banco-imobili-rio.webp'
     ],
     description: 'Banco Imobiliário é um jogo de negócios onde você compra propriedades, constrói casas e hotéis, e cobra aluguel dos outros jogadores.',
     howToPlay: 'Lance os dados e mova-se pelo tabuleiro. Compre propriedades desocupadas em que você pousar. Construa casas e hotéis para aumentar o aluguel. O objetivo é falir todos os outros jogadores.',
@@ -149,7 +152,8 @@ export const gamesData: Game[] = [
     summary: 'Colonize a ilha de Catan e construa sua civilização.',
     price: 35.00,
     images: [
-      'https://images.unsplash.com/photo-1651355828101-1e96ef64b1ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0YWJsZXRvcCUyMGdhbWVzfGVufDF8fHx8MTc2MzA4MDA4NXww&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://x.boardgamearena.net/data/gamemedia/catan/box/en_280.png?h=1751536970',
+      'https://devir.com.br/wp-content/uploads/2019/08/CATAN_BN-INT-2-430x290.png'
     ],
     description: 'Catan é um jogo de estratégia onde você coloniza uma ilha, coletando recursos, construindo estradas, povoados e cidades.',
     howToPlay: 'Lance os dados para coletar recursos (madeira, tijolo, trigo, ovelha, minério). Use esses recursos para construir estradas, povoados e cidades. Negocie com outros jogadores para obter os recursos que faltam.',
@@ -171,7 +175,8 @@ export const gamesData: Game[] = [
     summary: 'Um jogo de cartas estratégico cheio de gatinhos, explosões e às vezes cabras.',
     price: 22.00,
     images: [
-      'https://images.unsplash.com/photo-1632501641765-e568d28b0015?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxib2FyZCUyMGdhbWUlMjBjYXJkc3xlbnwxfHx8fDE3NjMwODAwODV8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      'https://www.explodingkittens.com/cdn/shop/files/EKOEAngled.png?v=1741032953',
+      'https://briquebraque.ca/cdn/shop/files/GrabGameExplodingKittens_4.jpg?v=1722518273'
     ],
     description: 'Exploding Kittens é um jogo de cartas rápido e hilário onde você tenta evitar explodir enquanto força seus oponentes a pegar cartas explosivas.',
     howToPlay: 'No seu turno, jogue cartas de ação para manipular o baralho, espiar cartas futuras ou forçar outros jogadores a comprar. Depois, compre uma carta. Se comprar um Exploding Kitten, você explode e está fora, a menos que tenha uma carta de Defuse.',
